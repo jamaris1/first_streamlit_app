@@ -34,7 +34,7 @@ def get_fruityvice_data(this_fruit_choice):
   # Normalizing the JSON format for better display 
   fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
   # Displays the normalized respones of the JSON format
-  streamlit.dataframe(fruityvice_normalized)
+  #streamlit.dataframe(fruityvice_normalized)
   return fruityvice_normalized
 
 streamlit.header("Fruityvice Fruit Advice!")
